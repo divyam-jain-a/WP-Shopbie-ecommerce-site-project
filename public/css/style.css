@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: black;
+}
+
+.cart ion-icon {
+   vertical-align: bottom;
+   font-size: 20px;
+   padding-right: 5px;
+   
+}
+
+.cart a {
+    background-color: black(165, 19, 19);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container,
+.container-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    
+}
+.container-products {
+    margin-top: 20rem;
+}
+
+/* .image {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 20rem;
+} */
+
+.image {
+    width: 18vw;
+    height: 33vw;
+    background-color: rgba(41, 41, 41, 0.192);
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-top: 10rem;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: -2rem;
+    transition: 0.3s ease-in-out ;
+}
+
+image > button> span:hover{
+    color: white;
+}
+
+.image > button> span >span:hover{
+    color: white;
+}
+
+.image > button:hover{
+    background-color: rgba(0, 0, 0, 0.763);
+    color: white;
+}
+
+.image>p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    margin-left: 0.7vw;
+    word-spacing: 1px;
+}
+.image >img{
+    width: 18vw;  
+    border-radius: 1px;
+    transition: 0.3s ease-in-out ;
+}
+
+.add-cart {
+    position: absolute;
+    margin-left: 5.9rem;
+    margin-top: -17.5rem;
+    cursor: pointer;
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    padding: 0.35rem 0.65rem ;
+    border: 0.5px solid rgba(0, 0, 0, 0.549);
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+
+.add-cart:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.738);
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9,
+.image:hover .cart10,
+.image:hover .cart11,
+.image:hover .cart12{
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/* ----------------- CART PAGE --------------- */
+
+.container-products {
+    max-width: 65rem;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container-products ion-icon {
+    font-size: 25px;
+    color:red;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.product-header {
+    width: 100%;
+    max-width: 65rem;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.price {
+    width: 15%;
+    margin-left: -7rem;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+   
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    margin-left: -5rem;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.product ion-icon {
+    cursor: pointer;
+    
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 330%;
+    border-top: 1px solid lightgray;
+    margin: 0 auto;
+}
+
+.basketTotal {
+    width: 50%;
+    border-top: 1px solid lightgray;
+    margin: 0 auto;
+}
+
+@media(max-width: 500px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: center;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}
+h3{
+    color: white;
+}
+.product,
+.sm-hide,
+.quantity,
+.total,
+.basketTotalContainer{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+h1{
+    color: white;
+    margin-left: 10rem;
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+
+}
+.wishlist-icon{
+    color: white;
+}
+.checked{
+    color: darkred;
+}

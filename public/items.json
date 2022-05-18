@@ -1,0 +1,161 @@
+[
+    {
+        "name":"T-shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 999",
+        "offer":"(50% OFF)",
+        "img":"./Images/shirtsss.jpg"
+    },
+
+    {
+        "name":"Jacket",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1999",
+        "offer":"(20% OFF)",
+        "img":"./Images/jacket.png"
+    },
+
+    {
+        "name":"Top",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 999",
+        "offer":"(30% OFF)",
+        "img":"./Images/womtop.jpg"
+    },
+
+    {
+        "name":"Shoes",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 899",
+        "offer":"(10% OFF)",
+        "img":"./Images/602a7bef11cac138ef9ea867_1613396975774.jpg"
+    },
+
+    {
+        "name":"Sneakers",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1099",
+        "offer":"(50% OFF)",
+        "img":"./Images/louis-vuitton--1839_Sneakers_Couple_DI2.jpg"
+    },
+
+    {
+        "name":"Sandal",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1199",
+        "offer":"(20% OFF)",
+        "img":"./Images/woman sandal.jpg"
+    },
+
+    {
+        "name":"Top",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 799",
+        "offer":"(10% OFF)",
+        "img":"./Images/girlshi.jpg"
+    },
+
+    {
+        "name":"Denim Jacket",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1699",
+        "offer":"(20% OFF)",
+        "img":"./Images/denim jacket.jpg"
+    },
+
+    {
+        "name":"Loafer",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 999",
+        "offer":"(30% OFF)",
+        "img":"./Images/shoestop.jpg"
+    },
+
+    {
+        "name":"Shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1999",
+        "offer":"(20% OFF)",
+        "img":"./Images/shirt short sleeves.jpg"
+    },
+
+    {
+        "name":"Sneakers",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 2099",
+        "offer":"(60% OFF)",
+        "img":"./Images/Sneakers.jpg"
+    },
+
+    {
+        "name":"T-shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 799",
+        "offer":"(10% OFF)",
+        "img":"./Images/tshirt1.png"
+    },
+
+    {
+        "name":"Heels",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 2399",
+        "offer":"(50% OFF)",
+        "img":"./Images/women3.png"
+    },
+
+    {
+        "name":"Women Jacket",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1299",
+        "offer":"(70% OFF)",
+        "img":"./Images/woman jacket.jpg"
+    },
+
+    {
+        "name":"Women Shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1999",
+        "offer":"(40% OFF)",
+        "img":"./Images/women1.png"
+    },
+
+    {
+        "name":"Top",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 999",
+        "offer":"(10% OFF)",
+        "img":"./Images/women2.png"
+    },
+
+    {
+        "name":"Full T-shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 1799",
+        "offer":"(50% OFF)",
+        "img":"./Images/women5.png"
+    },
+
+    {
+        "name":"Shoes",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 3999",
+        "offer":"(50% OFF)",
+        "img":"./Images/menshoes.png"
+    },
+
+    {
+        "name":"Jacket",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 4999",
+        "offer":"(60% OFF)",
+        "img":"./Images/men4.png"
+    },
+
+    {
+        "name":"T-shirt",
+        "Description":"Lorem ipsum lorem ipsum",
+        "price":"Rs. 3999",
+        "offer":"(40% OFF)",
+        "img":"./Images/men5.png"
+    }
+]

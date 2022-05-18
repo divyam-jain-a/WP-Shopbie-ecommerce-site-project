@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+* img{
+    width:100% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.page{
+    width: 20%;
+    height: 200px;
+    position: fixed;
+    margin-top: -40rem;
+
+
+   }
+
+   /* width */
+body::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 3px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: rgba(255, 253, 253, 0.089);
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+

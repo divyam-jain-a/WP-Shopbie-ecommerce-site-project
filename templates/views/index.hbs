@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopBie</title>
+    <script src="https://kit.fontawesome.com/394fde9347.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+ {{>header}}
+    <div class="popup-overlay">
+        <div class="close-btn"><span class="material-icons-round">
+            cancel
+            </span></div>
+        <div class="popup">
+            <div class="close-btn"><span class="material-icons-round">
+                cancel
+                </span></div>
+            <div style="display: flex;">
+                <div class="login-image">
+                     <img src="../Images/loginimage.jpg" alt="">
+                </div>
+                <div>
+                    <img style="width: 13rem; margin-left: 10.5rem; margin-top: 3rem; " src="./Images/Shopbie2.png" alt="">
+                    <form action="">
+                        <br>
+                            <input type="text"
+                            name="username"
+                            class="input-login" placeholder="Username" required><br>
+                            <p class="alerts">
+                                {{!-- *Username must be lowercase including numbers and contain 5 - 12
+                                characters --}}
+                              </p>
+                        
+                            <input class="input-login" type="text" name="email" placeholder="Email"  required>
+                            <br><p class="alerts" >
+                                {{!-- *Email must be a valid address, e.g. me@mydomain.com --}}
+                                </p>
+                            <input class="input-login"  type="password"
+                            name="password" placeholder="Password"  required><br>
+                            <p  class="alerts" >
+                                {{!-- *Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20
+                                characters --}}
+                              </p>
+                        
+                            <input class="input-login" type="text"
+                            name="telephone" placeholder="Phone No."  required><br>
+                            <p class="alerts" >
+                                {{!-- *Phone number must be a valid 10 digits number --}}
+                                </p>
+                    </form>
+                    <button type="submit" value="Submit" class="sign-up-btn">Sign Up</button>
+                    <p style="color: white;text-decoration: underline;font-family: 'Montserrat', sans-serif;font-size: 0.8rem; margin-top: 0.6rem;margin-left: 15.6rem;cursor: pointer;">Login</p>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+   
+
+    <div class="head-img">
+    <img style="width: 100%; position: absolute;" src="./Images/H.png" alt="">
+    <div class="text-img">
+        <p>'Bringing the art to your cart'</p> 
+        <p class="text-2">Explore the latest collections of top brands with amazing offers</p>
+        <button class="btn-grp">Shop Now 
+        <i class="material-icons-outlined">local_mall</i></button>
+     </div>
+     <div class="section-2" >
+        <div class="brands">
+           <p>Biggest deals on Top Brands</p>
+           <div class="brands-icon">
+            <div class="border"><div class="inner"><a href="/h&m"><img  class="hm"src="../Images/4480367.jpg" alt=""></a><h1>_____________________________________<br><br><a href="">Men</a><a href="">Women</a><a href="">Demins</a><br><br><a style="margin-left: -1.4vw;" href="">T-shirts</a><a href="">Winters</a><a href="">Jeans</a><br></h1></div><p>Up to <br> 50% off</p><br><br></div>
+            <div class="border"><div class="inner"><img  class="wi" src="./Images/wimage.jpg" alt=""><h1>_____________________________________<br><br><a href="">Footwear</a><a href="">Ethnic</a><a href="">Kurtas</a><br><br><a style="margin-left: -1.4vw;" href="">Winters</a><a href="">Drapes</a><br></h1></div><p>Up to <br> 30% off <br><br></div>
+            <div class="border"><div class="inner"><img  class="adidas" src="./Images/The-Trefoil-adidas-logo-1.jpg" alt=""><h1>_____________________________________<br><br><a href="">Shoes</a><a href="">T-shirts</a><a href="">Shorts</a><br><br><a style="margin-left: -1.4vw;" href="">Trackpants</a><a href="">Sportswear</a><br></h1></div><p>Up to <br> 40% off <br><br></div>
+
+            <!-- <div class="border"><img  class="zara" src="./Images/nike_preview_black_on_white.png" alt=""></div>
+            <div class="border"><img  class="gucci" src="./Images/https___hypebeast.com_wp-content_blogs.dir_6_files_2019_06_gucci-new-logo-2.jpg" alt=""></div>
+            <div class="border"><img  class="woodland" src="./Images/woodland-chooses-sap-to-manage-i-779781bfd6.gif" alt=""></div> -->
+            <div class="next"><i class="material-icons-outlined">arrow_forward_ios</i></div>
+        </div>   
+        </div>
+    </div>
+        <div class="section-3">
+                <div class="collections">
+            <p>Collections</p>
+                </div>
+                <div class="items">
+                    <!-- <div class="items-col" style="flex: 1;"><div class="item-content"><img src="./Images/shirtsss.jpg" alt=""><p><b>T-shirt Pink</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 899</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(40% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/girlshi.jpg" alt=""><p><b>Basic Top</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(30% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/girlshi.jpg" alt=""><p><b>Basic Top</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(30% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/girlshi.jpg" alt=""><p><b>Basic Top</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(30% OFF)</p></div></div>
+                    <div style="flex: 2;"><div class="item-content"><img src="./Images/denim jacket.jpg" alt=""><p><b> Denim Jacket</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1299</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(20% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/Sneakers.jpg" alt=""><p><b>Shoes</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(10% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/Sneakers.jpg" alt=""><p><b>Shoes</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(10% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/Sneakers.jpg" alt=""><p><b>Shoes</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(10% OFF)</p></div>
+                </div>
+                    <div style="flex: 3;"><div class="item-content"><img src="./Images/shirt short sleeves.jpg" alt=""><p><b>Pattern shirt</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1099</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(60% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/woman jacket.jpg" alt=""><p><b>Jacket</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1399</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(20% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/woman jacket.jpg" alt=""><p><b>Jacket</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1399</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(20% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/woman jacket.jpg" alt=""><p><b>Jacket</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1399</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(20% OFF)</p></div></div>
+                    <div style="flex: 4;"><div class="item-content"><img src="./Images/woman sandal.jpg " alt=""><p><b>Sandal</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(10% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/louis-vuitton--1839_Sneakers_Couple_DI2.jpg" alt=""><p><b>Sneakers</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 799</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(50% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/louis-vuitton--1839_Sneakers_Couple_DI2.jpg" alt=""><p><b>Sneakers</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 799</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(50% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/louis-vuitton--1839_Sneakers_Couple_DI2.jpg" alt=""><p><b>Sneakers</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 799</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(50% OFF)</p></div></div>
+                    <div style="flex: 5;"><div class="item-content"><img src="./Images/kurta.jpg" alt=""><p><b>Kurta</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1999</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(20% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/602a7bef11cac138ef9ea867_1613396975774.jpg" alt=""><p><b>Loafer</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1099</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(40% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/602a7bef11cac138ef9ea867_1613396975774.jpg" alt=""><p><b>Loafer</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1099</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(40% OFF)</p></div>
+                    <div class="item-content"><img src="./Images/602a7bef11cac138ef9ea867_1613396975774.jpg" alt=""><p><b>Loafer</b></p><p style="font-size: 0.8vw; margin-top: 0.1vw; color: rgba(240, 240, 240, 0.233);">Lorem ipsum dolor sit</p><p style="margin-top: 0.6vw;"><b>Rs. 1099</b> </p><p style="font-size: 11px; margin-top: -1vw; margin-left: 5vw; color: darkred;">(40% OFF)</p></div></div> -->
+                </div>
+                <a href="#">View more&nbsp;<i style="position: absolute;margin-top: -2px;" class="material-icons-outlined">arrow_forward</i></a>
+                <!-- <img src="./Images/Stalk_image.jpg" alt="">
+                <button class="btn-img1">Try Now</button> -->
+        <!-- <div class="all-icons">
+            <div class="t-shirt"><img  src="./Images/16196174161642047947.svg" alt=""></div>
+            <div class="pant"><img  src="./Images/6088646791642047946.svg" alt=""></div>
+            <div class="shoess"><img  src="./Images/20326077241625671720.svg" alt=""></div>
+            <div class="watch"><img  src="./Images/806526991642047946.svg" alt=""></div>
+            <div class="suit"><img  src="./Images/6865214881554126471.svg" alt=""></div>
+            </div> -->
+        </div>
+    
+        <div class="section-4">
+            <div class="banner-r1">
+            <div class="para-img1"><img src="./Images/Screenshot (400).png" alt="">
+                
+            </div>
+            <div class="para-img2"><img src="./Images/Screenshot (404).png" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+            <div class="para-img21"><img src="./Images/fashion-coupons.jpg" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+            <div class="para-img22"><img src="./Images/rakul-preet-singh-promoting-brand-factory-s-buy-1-get-3-campaign.jpeg" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+        </div>
+        <div class="banner-r1">
+            <div class="para-img3"><img src="./Images/Screenshot (399).png" alt="">
+                
+            </div>
+            <div class="para-img4"><img src="./Images/Screenshot (401).png" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+            <div class="para-img5"><img src="./Images/Screenshot (402).png" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+            <div class="para-img51"><img src="./Images/Screenshot 2022-04-12 041906.jpg" alt="">
+                <!-- <button class="btn-img1">Try Now</button> -->
+            </div>
+        </div>
+        </div> 
+        <div class="section-5">
+            <div class="bestseller">
+               <p>Top Selling Products</p>
+               <div class="products">
+                   <img src="./Images/Screenshot 2022-03-14 000958.jpg" alt="">
+                   <img style="width: 6vw; margin-left: 0.4vw; margin-top: -1vw;" src ="./Images/shoes2.jpg" alt="">
+                   <img style="width: 6vw;margin-top: -12vw;margin-left: -6vw;" src="./Images/Shoes3.jpg" alt="">
+                   <img style="width: 6vw;margin-top: 11vw;margin-left: -6vw;" src="./Images/shoes4.jpg" alt="">
+                   <p style="margin-left: 48vw;font-size: 1.3vw;margin-top: -15vw;">New Sport Shoes</p>
+                   <p style="margin-left: 48vw;font-size: 0.9vw; color: rgba(255, 255, 255, 0.384);font-weight: lighter;margin-top: -11vw;">Lorem ipsum dolor sit amet consectetur elit.</p>
+                   <p style="margin-left: 48vw;font-size: 1.3vw;margin-top: -5vw;">Rs. 3900</p>
+                   <p style="margin-left: 54vw;font-size: 0.75vw;font-weight: lighter;color: darkred;margin-top: -4.65vw;"> (60% OFF)</p>
+                   <p style="margin-left: 48vw;font-size: 0.9vw;font-weight: lighter;">Select Size</p>
+                   <div style="margin-left: 5.5vw;margin-top: 6vw;"><button class="btn-size">6</button>
+                    <button class="btn-size">7</button>
+                    <button class="btn-size">8</button>
+                    <button class="btn-size">9</button>
+                    <button class="btn-size">10</button>
+                    <button class="btn-size">11</button></div>
+                   <div style="margin-left: -23.2vw;margin-top: 13.5vw;"><button class="select-btn">Wishlist</button>
+                <button class="select-btn">Add to Cart</button></div>
+               </div>
+               <div class="other-products">
+                   
+                   <div class="item-op"><img src="./Images/TOP1.jpg" alt=""><p>Shoes</p><p style="font-size: 0.5vw ; margin-top: 1.2vw; color: rgba(255, 255, 255, 0.548);">Lorem ipsum set</p><p style="margin-top: 2.2vw;"><b> Rs. 2000</b><p style="margin-top: 2.4vw; margin-left: 4.5vw; font-size: 0.6vw;color: darkred;">(30% OFF)</p></p></div>
+                   <div class="item-op"><img src="./Images/watchtop.jpg" alt=""><p>Watch</p><p style="font-size: 0.5vw ; margin-top: 1.2vw; color: rgba(255, 255, 255, 0.548);">Lorem ipsum set</p><p style="margin-top: 2.2vw;"><b> Rs. 3000</b><p style="margin-top: 2.4vw; margin-left: 4.5vw; font-size: 0.6vw;color: darkred;">(20% OFF)</p></p></div>
+                   <div class="item-op"><img src="./Images/dabtop.jpg" alt=""><p>T-shirt</p><p style="font-size: 0.5vw ; margin-top: 1.2vw; color: rgba(255, 255, 255, 0.548);">Lorem ipsum set</p><p style="margin-top: 2.2vw;"><b> Rs. 950</b><p style="margin-top: 2.4vw; margin-left: 4.5vw; font-size: 0.6vw;color: darkred;">(40% OFF)</p></p></div>
+                   <div class="item-op"><img src="./Images/womtop.jpg" alt=""><p>Top</p><p style="font-size: 0.5vw ; margin-top: 1.2vw; color: rgba(255, 255, 255, 0.548);">Lorem ipsum set</p><p style="margin-top: 2.2vw;"><b> Rs. 1200</b><p style="margin-top: 2.4vw; margin-left: 4.5vw; font-size: 0.6vw;color: darkred;">(15% OFF)</p></p></div>
+                   <div class="item-op"><img src="./Images/shoestop.jpg" alt=""><p>Shoes</p><p style="font-size: 0.5vw ; margin-top: 1.2vw; color: rgba(255, 255, 255, 0.548);">Lorem ipsum set</p><p style="margin-top: 2.2vw;"><b> Rs. 2100</b><p style="margin-top: 2.4vw; margin-left: 4.5vw; font-size: 0.6vw;color: darkred;">(10% OFF)</p></p></div>
+               </div>
+            </div>
+            </div> 
+    
+        <div class="section-6">
+            <div class="box-grp"><div class="bg-icon"><i class="material-icons-outlined">local_shipping</i></div><p class="heading-box">Free Shipping</p><p></p><p class="content-box">Lorem ipsum dolor sitametconsect etur adipisicing elit. Lorem ipsum dolor sit amet.</p></p></div>
+            <div class="box-grp"><div class="bg-icon"><i class="material-icons-outlined">handshake</i></div><div></div><p class="heading-box">24/7 Guarantee<p class="content-box">Lorem ipsum dolor sit amet, con sec tetur adipisicing. Corruptincidunt, quae quidem fugiat.</p></p></div>
+            <div class="box-grp"><div class="bg-icon"><i class="material-icons-outlined">local_atm</i></div><div></div><p class="heading-box">Easy Payments<p class="content-box">Lorem ipsum dolor sit amet con sectetur adipisicing elit. Doloribus, fugiat perspiciatis. Cupiditate.</p></p></div>
+        </div>
+      {{>footer}} 
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
